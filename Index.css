@@ -1,0 +1,145 @@
+.background::before{
+    content:'';
+    background-image: url(image555.jpg);
+    background-size: cover;
+    background-position: center;
+    position:fixed;
+    background-repeat: no-repeat;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.9;
+   
+    
+}
+form{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    
+}
+#label1{
+    color: rgb(200, 22, 22);
+    font-size: 40px;
+    margin-top: 50px;
+    margin-right: 1110px;
+    margin-left: 10px;
+}
+.nav{
+    margin-top: -90px;
+    margin-left: 189px;
+}
+
+ .list1{
+    display:inline-block;
+    background-color: transparent;
+    margin-left: 140px;
+}
+.hacc{color: white;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+    font-size: medium;
+}
+.search{
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    width: 140px;
+    font-size: medium;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+}
+.search1{
+    font-size: medium;
+    background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid orange;
+}
+
+/* container start*/
+.container{
+    position: relative;
+    display:flex;
+    max-width: 100%;
+    background: transparent;
+}
+span{
+    color: orange;
+    
+}
+.left_container{
+    color: aliceblue;
+    margin-left: 20px;
+    flex: 50%;
+    position: relative;
+    background: transparent;
+    
+}
+#join{
+    margin-left: 90px;
+    font-size: medium;
+    border-radius: 5px;
+    color: black;
+    background-color: orange;
+    border: 0px;
+}
+#join:hover{color: aqua;
+    box-shadow: 0px 0px 20px;
+}
+.right_container{ color: white;
+    flex: 50%;
+    position: relative;
+    text-align: center;
+   
+     
+}
+.trans{
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    border-radius: 15px;
+    margin-left: 330px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+#input1{
+    color: white;
+    margin-left: 10px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#input2{
+    color: white;
+    margin-left: 13px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#input3{
+    font-size: medium;
+    border-radius: 5px;
+    color: black;
+    background-color: orange;
+    border: 0px;
+}
+#input3:hover{
+    color: aqua;
+    box-shadow: 0px 0px 20px;
+}
+#signup{
+   
+    background-color: transparent;
+    border: 0px;
+    color: orange;
+}
